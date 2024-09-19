@@ -55,7 +55,7 @@ class TaskManager:
             print(f"\n{quadrant}: {info['description']}")
             for task in info['tasks']:
                 status = "Completed" if task['completed'] else "Pending"
-                print(f"- {task['name']} due on {task['due_date']} ({task['priority']}, {status})")
+                print(f"- {task['name']} due on {task['due_date']} (Priority: {task['priority']}, Status: {status})")
 
     def save_tasks(self):
         with open(self.file_path, 'w') as file:
