@@ -7,7 +7,7 @@
                 "due_date": "2024-09-06",
                 "priority": "Low",
                 "duration": "5",
-                "completed": false
+                "status": "to do"
             }
         ]
     },
@@ -23,7 +23,25 @@
                 "due_date": "2024-09-07",
                 "priority": "High",
                 "duration": "4",
-                "completed": false,
+                "status": "to do",
+                "urgency": true,
+                "importance": false
+            },
+            {
+                "name": "test 3",
+                "due_date": "2024-09-19",
+                "priority": "High",
+                "duration": "5",
+                "status": "on hold",
+                "urgency": true,
+                "importance": false
+            },
+            {
+                "name": "test 4",
+                "due_date": "2024-09-20",
+                "priority": "Low",
+                "duration": "5",
+                "status": "on hold",
                 "urgency": true,
                 "importance": false
             }
@@ -31,6 +49,16 @@
     },
     "IV": {
         "description": "Neither Urgent nor Important",
-        "tasks": []
+        "tasks": [
+            {
+                "name": "test 5",
+                "due_date": "2024-09-21",
+                "priority": "High",
+                "duration": "3",
+                "status": "on hold",
+                "urgency": false,
+                "importance": false
+            }
+        ]
     }
 }
