@@ -1,7 +1,3 @@
-Chat Gpt (Data analysis) Link:
-     https://chat.openai.com/share/cf563eff-026d-40df-8348-84b1fee62d64
-
-
 ### Current State of the Program
 
 As a software engineer, I have initiated the development of a personal assistant program focused on priority task management. The first module implemented in this program is based on Stephen Covey's Time Management Matrix. This module, encapsulated in `TimeMatrix.py`, serves as a foundational component for task prioritization and management.
